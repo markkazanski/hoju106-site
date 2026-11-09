@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hoju-106 Pocket Polysynth</title>
+  <style>
+    :root {
+      --panel: #3d3c42;
+      --ink: #f4f4f0;
+      --dim: #8c8c8c;
+      --accent: #f0b356;
+      --blue: #87aaa3;
+      --yellow: #f9b23e;
+      --red: #d34254;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+      background: var(--panel);
+      color: var(--ink);
+      line-height: 1.55;
+    }
+    .stripe { display: flex; height: 4px; }
+    .stripe span { flex: 1; }
+    .stripe .b { background: var(--blue); }
+    .stripe .y { background: var(--yellow); }
+    .stripe .r { background: var(--red); }
+    main { max-width: 40rem; margin: 0 auto; padding: 2.5rem 1.5rem 3rem; }
+    h1 { font-size: 1.75rem; letter-spacing: 0.06em; margin: 0 0 0.25rem; }
+    .tag { color: var(--dim); font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; }
+    p { color: var(--dim); }
+    a { color: var(--accent); }
+    nav { margin-top: 2rem; display: flex; gap: 1.5rem; flex-wrap: wrap; }
+  </style>
+</head>
+<body>
+  <div class="stripe"><span class="b"></span><span class="y"></span><span class="r"></span></div>
+  <main>
+    <p class="tag">Pocket Polysynth</p>
+    <h1>HOJU-106</h1>
+    <p>Six-voice real-time synthesis for iPhone and iPad. 32 presets, classic chorus, keys and pads, USB and Bluetooth MIDI.</p>
+    <nav>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </nav>
+  </main>
+</body>
+</html>
